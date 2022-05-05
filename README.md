@@ -1,33 +1,21 @@
-# Il giro del mondo in 80 giorni
+# Around the world in 80 days
 
-Partendo dai dati contenuti nel file `./data/worldcities_ascii.csv` trovare per ogni città le 3 città più vicine ad essa.
+Starting from the data contained in `./data/worldcities_ascii.csv` find for each city the 3 cities closest to it.
 
-Calcolare il tempo che ci vuole a spostarsi da una città a un suo vicino secondo queste regole:
+Compute how long it takes to move from a city to a neighbor according to these rules:
 
-- 2 ore per la città più vicina
-- 4 ore per la seconda città più vicina
-- 8 ore per la terza città più vicina
+- 2 hours to the nearest city
+- 4 hours to the second closest city
+- 8 hours to the third closest city
 
-Inoltre il viaggio richiede:
+In addition, the trip requires:
 
-- 2 ore aggiuntive se la città di destinazione è in un'altra nazione rispetto alla città di partenza
-- 2 ore aggiuntive se la città di destinazione ha più di 200.000 abitanti
-## Quesiti
-1. Partendo da Londra e viaggiando sempre verso Est, è possible compiere il giro del mondo tornando a Londra in 80 giorni? Quanto tempo si impiega al minimo?
+- 2 additional hours if the destination city is in another country than the departure city
+- 2 additional hours if the destination city has more than 200,000 inhabitants
 
-2. In caso non si possa compiere il giro del mondo partendo da Londra, da quali altre città è possibile compiere il giro del mondo?
+## Questions
+1. Starting from London and always traveling east, is it possible to travel around the world returning to London in 80 days? How long does the shortest path take?
 
-3. Supponendo che da ogni città si possa viaggiare solo verso le 3 città a Est più vicine come cambia l'esito delle domande precedenti?
+2. If it is not possible to travel around the world starting from London, from which other cities is it possible to travel around the world?
 
----
-
-### Packages utilizzati:
-
-- *numpy*
-- *pandas*
-- *dijkstra*
-- *sklearn*
-- *math*
-- *csv*
-- *ipyleaflet*
-- *ipywidgets*
+3. Assuming that from each city you can only travel to the 3 closest cities to the east, how does the outcome of the previous questions change?
