@@ -19,3 +19,33 @@ In addition, the trip requires:
 2. If it is not possible to travel around the world starting from London, from which other cities is it possible to travel around the world?
 
 3. Assuming that from each city you can only travel to the 3 closest cities to the east, how does the outcome of the previous questions change?
+
+---
+
+## Installation 
+
+All the project's dependencies are listed in the `requirements.txt` file.
+
+From the following directory run the command:
+
+```
+pip install -r requirements.txt
+```
+
+If you're developing with **Jupyter Notebook** run the command:
+
+```
+jupyter nbextension enable --py --sys-prefix --overwrite ipyleaflet
+```
+
+f you're developing with **JupyterLab** and you have JupyterLab <=2, you will also need to install the JupyterLab extension with the command:
+
+```
+jupyter labextension install @jupyter-widgets/jupyterlab-manager jupyter-leaflet
+```
+
+## Demo
+
+
+
+> Tip: Use the map in fullscreen for a better experience
