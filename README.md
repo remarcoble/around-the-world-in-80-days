@@ -13,16 +13,22 @@ In addition, the trip requires:
 - 2 additional hours if the destination city is in another country than the departure city
 - 2 additional hours if the destination city has more than 200,000 inhabitants
 
-## Questions
+### Questions
 1. Starting from London and always traveling east, is it possible to travel around the world returning to London in 80 days? How long does the shortest path take?
 
 2. If it is not possible to travel around the world starting from London, from which other cities is it possible to travel around the world?
 
 3. Assuming that from each city you can only travel to the 3 closest cities to the east, how does the outcome of the previous questions change?
 
+## Demo
+
+![Demo video](https://raw.githubusercontent.com/remarcoble/remarcoble/main/repositories/around-the-world-in-80-days/demo.gif)
+
+*Tip:* Use the map in fullscreen for a better experience
+
 ---
 
-## Installation 
+# Installation 
 
 All the project's dependencies are listed in the `requirements.txt` file.
 
@@ -43,9 +49,3 @@ f you're developing with **JupyterLab** and you have JupyterLab <=2, you will al
 ```
 jupyter labextension install @jupyter-widgets/jupyterlab-manager jupyter-leaflet
 ```
-
-## Demo
-
-![Demo video](https://raw.githubusercontent.com/remarcoble/remarcoble/main/repositories/around-the-world-in-80-days/demo.gif)
-
-*Tip:* Use the map in fullscreen for a better experience
