@@ -46,6 +46,6 @@ jupyter labextension install @jupyter-widgets/jupyterlab-manager jupyter-leaflet
 
 ## Demo
 
+![Demo video](https://raw.githubusercontent.com/remarcoble/remarcoble/main/repositories/around-the-world-in-80-days/demo.gif)
 
-
-> Tip: Use the map in fullscreen for a better experience
+*Tip:* Use the map in fullscreen for a better experience
