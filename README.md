@@ -2,7 +2,7 @@
 
 Starting from the data contained in `./data/worldcities_ascii.csv` find for each city the 3 cities closest to it.
 
-Compute how long it takes to move from a city to a neighbor according to these rules:
+Compute how long it takes to move from a city to a neighbour according to these rules:
 
 - 2 hours to the nearest city
 - 4 hours to the second closest city
