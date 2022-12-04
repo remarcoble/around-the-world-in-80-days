@@ -4,7 +4,7 @@ Starting from the data contained in `./data/worldcities_ascii.csv` find for each
 
 Compute how long it takes to move from a city to a neighbour according to these rules:
 
-- 2 hours to the nearest city
+- 2 hours to the closest city
 - 4 hours to the second closest city
 - 8 hours to the third closest city
 
